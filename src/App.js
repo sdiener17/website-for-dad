@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import styled from "styled-components";
 import { Route, Routes } from "react-router-dom";
+import LoginPage from "./components/LoginPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./components/homepage/HomePage";
@@ -12,6 +13,17 @@ import KidsPage from "./components/kidspage/KidsPage";
 export default function App() {
   const [isSurveySubmitted, setIsSurveySubmitted] = useState(false);
   const [userAnswers, setUserAnswers] = useState([]);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
+
+  useEffect(()=>{
+    //setIsLoggedIn(false);
+  },[])
+
+  if(!isLoggedIn){
+    return(
+      <LoginPage setIsLoggedIn={setIsLoggedIn}/>
+    )
+  }
   
 
   return (
