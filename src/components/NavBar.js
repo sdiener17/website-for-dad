@@ -41,34 +41,14 @@ export default function NavBar() {
           </Link>
 
           <Link
-            to="/sarahspage"
+            to="/kids"
             className={
-              "sidebar-link " + (currentPage === "sarahspage" ? "lit" : "unlit")
+              "sidebar-link " + (currentPage === "kids" ? "lit" : "unlit")
             }
-            id="sarahsLink"
-            onClick={() => setCurrentPage("sarahspage")}
+            id="kidsLink"
+            onClick={() => setCurrentPage("kids")}
           >
-            Sarah's Page
-          </Link>
-          <Link
-            to="/calebspage"
-            className={
-              "sidebar-link " + (currentPage === "calebspage" ? "lit" : "unlit")
-            }
-            id="calebsLink"
-            onClick={() => setCurrentPage("calebspage")}
-          >
-            Caleb's Page
-          </Link>
-          <Link
-            to="/joshuaspage"
-            className={
-              "sidebar-link " + (currentPage === "joshuaspage" ? "lit" : "unlit")
-            }
-            id="joshuasLink"
-            onClick={() => setCurrentPage("joshuaspage")}
-          >
-            Joshua's Page
+            Kids' Page
           </Link>
 
 

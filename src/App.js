@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./components/homepage/HomePage";
 import AboutPage from "./components/aboutpage/AboutPage";
+import KidsPage from "./components/kidspage/KidsPage";
 
 export default function App() {
   const [isSurveySubmitted, setIsSurveySubmitted] = useState(false);
@@ -30,6 +31,11 @@ export default function App() {
               <Route
                 exact path="/about"
                 element={<AboutPage/>}
+                />
+
+              <Route
+                exact path="kids"
+                element={<KidsPage/>}
                 />
 
             

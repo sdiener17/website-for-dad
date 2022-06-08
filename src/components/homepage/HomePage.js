@@ -1,5 +1,8 @@
 import React, {useEffect} from "react";
 import styled from "styled-components";
+import ReactWordcloud from 'react-wordcloud';
+import {wordcloudData} from "../../data/wordcloudData";
+
 
 export default function HomePage(){
     useEffect(() => {
@@ -7,7 +10,7 @@ export default function HomePage(){
       }, [])
     return (
         <PageWrapper>
-            Hello world
+            <ReactWordcloud words={wordcloudData}/>
         </PageWrapper>
     )
 }
