@@ -1,9 +1,24 @@
 import React, {useState} from "react";
 import styled from "styled-components";
 import CommonModal from "../common/CommonModal";
+import ReactAudioPlayer from "react-audio-player";
 
 
-export default function ImageCard({image1, image2, image3, memoryText, word1, word2, word3, paragraphText, mText1, mText2, mText3}){
+export default function ImageCard({
+    image1, 
+    image2, 
+    image3, 
+    favoriteThingText, 
+    word1, 
+    word2, 
+    word3, 
+    paragraphText, 
+    mText1, 
+    mText2, 
+    mText3,
+    favoriteSong,
+    songRecording
+}){
     const [showModal1, setShowModal1] = useState(false);
     const [showModal2, setShowModal2]  = useState(false);
     const [showModal3, setShowModal3] = useState(false);
@@ -29,14 +44,22 @@ export default function ImageCard({image1, image2, image3, memoryText, word1, wo
                     <CommonModal setShowModal={setShowModal3} showModal={showModal3} text={mText3}/>
                 </div>
                 <div className="column-wrapper">
-                    <h2>A Favorite Memory</h2>
-                    <div>{memoryText}</div>
+                    <h2>One of my Favorite Things About You</h2>
+                    <div>{favoriteThingText}</div>
                     <h2>Three Describing Words</h2>
                     <ul>
                         <li>{word1}</li>
                         <li>{word2}</li>
                         <li>{word3}</li>
                     </ul>
+                    <h2>My Guess at Your Favorite Song</h2>
+                    {/* <div>{favoriteSong}</div> */}
+                    <ReactAudioPlayer
+                        src={songRecording}
+                        autoPlay={false}
+                        loop={false}
+                        controls={true}
+                    />
                     <h2>To Dad:</h2>
                     <div>{paragraphText}</div>
                 </div>
@@ -48,6 +71,13 @@ export default function ImageCard({image1, image2, image3, memoryText, word1, wo
 
 
 const PageWrapper = styled.div`
+    /* display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:left;
+    margin-left:15px;
+    margin-right:15px; */
     .overall-wrapper{
         display:flex;
         flex-flow: row wrap;
@@ -62,7 +92,8 @@ const PageWrapper = styled.div`
     }
     .gallery-wrapper{
         display:flex;
-        flex-flow: row wrap;
+        flex-direction:row;
+        //flex-flow: row wrap;
         justify-items: center;
         justify-content: center;
         align-items: center;

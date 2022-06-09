@@ -6,7 +6,7 @@ import CalebSpotlight from "./CalebSpotlight";
 import JoshuaSpotlight from "./JoshuaSpotlight";
 
 
-export default function HomePage(){
+export default function KidsPage(){
     useEffect(() => {
         window.scrollTo(0, 0)
       }, [])

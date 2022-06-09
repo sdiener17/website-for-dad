@@ -1,9 +1,6 @@
 export const sarahSpotlightData = {
-    memory:`I remember you reading books to us, particularly the book 'Flip'. I don't know why I loved that book so much, but, in my
-        limited memory, I seemed to choose it a lot. It got to the point where I knew how the book went, and you started changing it,
-        and I would get annoyed with you everytime and tell you that that wasn't how the book went. Even though it's been years and years
-        since I've heard the book read to me, when I pulled it off the shelf recently, I still had a vague recollection of how it
-        went.`,
+    favoriteThing:`I love that you always know how to fix things. From making your own monitor stand, to cleaning drains and fixing
+        clogged toilets, or less tangible things, like helping me work through my major change, you're good at fixing things.`,
     text1 : `I remember how the boys and I would go upstairs and create "monster dark", which meant we tried to make it as dark
         in the hallway as we could, even to the point of stuffing towels and blankets in the cracks of the doors. Then, sometimes, we
         would take the tub of balls and have two of us stand at the top of the stairs with one at the bottom, and the two at the top
@@ -22,6 +19,7 @@ export const sarahSpotlightData = {
     word1: "Trickster",
     word2:"Aword",
     word3:"Anotherword",
+    favoriteSong: "Zen Ball Master",
     paragraph:`Dad, I'm so glad that I get to have you as a dad. Even though you somtimes got mad at us, or ruined our fun, you were
         always just trying to look out for us.`
 }

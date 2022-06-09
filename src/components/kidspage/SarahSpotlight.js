@@ -5,18 +5,17 @@ import Sarah1 from "../../images/Sarah1.jpg";
 import Book1 from "../../images/Book1.jpg";
 import Sarah2 from "../../images/Sarah2.jpg"
 import { sarahSpotlightData } from "../../data/sarahSpotlightData";
+import Corruption from "../../music/Corruption.mp3";
 
-export default function HomePage(){
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+export default function SarahSpotlight(){
     return (
         <PageWrapper>
-            <SpotlightCard image1={Sarah1} image2={Book1} memoryText={sarahSpotlightData.memory}
+            <SpotlightCard image1={Sarah1} image2={Book1} favoriteThingText={sarahSpotlightData.favoriteThing}
                 word1={sarahSpotlightData.word1} word2={sarahSpotlightData.word2}
                 word3={sarahSpotlightData.word3} paragraphText={sarahSpotlightData.paragraph}
                 image3={Sarah2} mText1={sarahSpotlightData.text1} mText2={sarahSpotlightData.text2}
-                mText3={sarahSpotlightData.text3}/>
+                mText3={sarahSpotlightData.text3} favoriteSong={sarahSpotlightData.favoriteSong}
+                songRecording={Corruption}/>
         </PageWrapper>
     )
 }
