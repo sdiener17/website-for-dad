@@ -1,14 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
+
 export default function ImageCard({image}){
     return(
         <PageWrapper>
-            <div className="textWrap">
-            <div className="imageContainer">
-                <img className="cardImage" src={image} ></img>
-            </div>
-            </div>
+            <img className="sqr" src={image}/>
             
         </PageWrapper>
     )
@@ -16,39 +13,42 @@ export default function ImageCard({image}){
 
 
 const PageWrapper = styled.div`
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:left;
-    margin-left:15px;
-    margin-right:15px;
-
-    margin-bottom:60px;
-    .cardImage{
-        margin:5px;
-        width:200px;
-        height:200px;
-        border-radius:50%;
-        border: 3px solid var(--secondarySiteColor);
-        margin-right:15px;
+.sqr {
+    --size: 200px;
+  
+    height: var(--size);
+    width: var(--size);
+    border-radius: calc(var(--size) * 0.15);
+    background: {
+      image: var(--img);
+      size: cover;
+      repeat: no-repeat;
     }
-    .imageContainer{
-        float:left;
+    position: relative;
+    box-shadow: 2.5px 2.5px 2.5px var(--darkGrey);
+  
+    &::after {
+      content: "";
+      position: absolute;
+      width: calc(var(--size) * 0.8);
+      height: 100%;
+      top: calc(var(--size) * 0.05);
+      left: 50%;
+      transform: translateX(-50%);
+      background: {
+        image: var(--img);
+        size: cover;
+        repeat: no-repeat;
+      }
+      z-index: -1;
+      filter: blur(20px) opacity(70%);
     }
-    .textWrap{
-        display:flex;
-        flex-direction:row;
-        justify-content:flex-start;
-        align-items:center;
-        max-width:1200px;
-        padding:10px;
-        background-color:var(--cardGrey);
-        border-radius: 10px;
-        font-size: 1.2rem;
-    }
-    /* .flex-item img{
-        flex-grow:0;
-        flex-shrink:0;
-    } */
+  }  
+  .sqr:hover{
+    box-shadow: 5px 5px 5px var(--darkGrey);
+  }
+  
+  .sqr {
+    margin: 10px;
+  }
 `;
