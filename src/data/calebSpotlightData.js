@@ -1,5 +1,6 @@
 export const calebSpotlightData = {
-    favoriteThing:``,
+    favoriteThing:`Word word word word word Word word word word wor dWord word word word word Word word word word word
+    Word word word word word`,
     text1 : ``,
     text2:``,
     text3:``,

@@ -5,7 +5,7 @@ import Sarah1 from "../../images/Sarah1.jpg";
 import Book1 from "../../images/Book1.jpg";
 import Sarah2 from "../../images/Sarah2.jpg"
 import { sarahSpotlightData } from "../../data/sarahSpotlightData";
-import Corruption from "../../music/Corruption.mp3";
+import Aint_No_Mountain from "../../music/Aint_No_Mountain.mp3";
 
 export default function SarahSpotlight(){
     return (
@@ -15,7 +15,7 @@ export default function SarahSpotlight(){
                 word3={sarahSpotlightData.word3} paragraphText={sarahSpotlightData.paragraph}
                 image3={Sarah2} mText1={sarahSpotlightData.text1} mText2={sarahSpotlightData.text2}
                 mText3={sarahSpotlightData.text3} favoriteSong={sarahSpotlightData.favoriteSong}
-                songRecording={Corruption}/>
+                songRecording={Aint_No_Mountain}/>
         </PageWrapper>
     )
 }

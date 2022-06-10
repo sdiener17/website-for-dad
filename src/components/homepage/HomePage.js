@@ -6,6 +6,9 @@ import ImageCard from "../common/ImageCard";
 import Dad1 from "../../images/Dad1.jpg";
 import Dad2 from "../../images/Dad2.jpg"
 import ImageGallery from "../common/ImageGallery";
+import Mr_Blue_Sky from "../../music/Mr_Blue_Sky.mp3";
+import ReactAudioPlayer from "react-audio-player";
+
 
 
 export default function HomePage(){
@@ -20,6 +23,11 @@ export default function HomePage(){
                 <ImageCard image={Dad2}/>
             </div>
             <ImageGallery/>
+            <ReactAudioPlayer src={Mr_Blue_Sky}
+                autoPlay={false}
+                controls={true}
+                loop={true}
+                />
             <div className="marginBottom"/>
             
         </PageWrapper>

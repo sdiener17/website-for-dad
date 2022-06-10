@@ -80,7 +80,7 @@ const PageWrapper = styled.div`
     margin-right:15px; */
     .overall-wrapper{
         display:flex;
-        flex-flow: row wrap;
+        flex-flow: column wrap !important;
         padding:10px;
         flex-wrap:wrap;
         align-items:center;
@@ -102,6 +102,8 @@ const PageWrapper = styled.div`
         display:flex;
         flex-direction:column;
         float:left;
+        flex-wrap:wrap;
+        //max-width:600px;
     }
     h2{
         margin-bottom:5px;
