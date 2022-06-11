@@ -17,7 +17,7 @@ export const sarahSpotlightData = {
         went.`,
     text3:``,
     word1: "Trickster",
-    word2:"Aword",
+    word2:"Fix-it Felix",
     word3:"Anotherword",
     favoriteSong: "Zen Ball Master",
     paragraph:`Dad, I'm so glad that I get to have you as a dad. Even though you somtimes got mad at us, or ruined our fun, you were

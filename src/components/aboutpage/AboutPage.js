@@ -1,5 +1,7 @@
 import React, {useEffect} from "react";
 import styled from "styled-components";
+import HexagonGallery from "../common/HexagonGallery";
+import Dad11 from "../../images/Dad11.jpg";
 
 export default function HomePage(){
     useEffect(() => {
@@ -7,7 +9,7 @@ export default function HomePage(){
       }, [])
     return (
         <PageWrapper>
-            Hello world
+            <HexagonGallery img1={Dad11} img2={Dad11} img3={Dad11} img4={Dad11} img5={Dad11} img6={Dad11}/>
         </PageWrapper>
     )
 }

@@ -1,13 +1,13 @@
 import React, {useEffect} from "react";
 import styled from "styled-components";
 import ReactWordcloud from 'react-wordcloud';
+import ReactAudioPlayer from "react-audio-player";
 import {wordcloudData} from "../../data/wordcloudData";
 import ImageCard from "../common/ImageCard";
 import Dad1 from "../../images/Dad1.jpg";
 import Dad2 from "../../images/Dad2.jpg"
 import ImageGallery from "../common/ImageGallery";
 import Mr_Blue_Sky from "../../music/Mr_Blue_Sky.mp3";
-import ReactAudioPlayer from "react-audio-player";
 
 
 
@@ -17,17 +17,20 @@ export default function HomePage(){
       }, [])
     return (
         <PageWrapper>
-            <div className="top-column">
-                <ImageCard image={Dad1}/>
-                <ReactWordcloud words={wordcloudData}/>
-                <ImageCard image={Dad2}/>
+            <div className="first-row">
+                <p>Welcome Mr. Dad to your super awesome website! We hope you enjoy looking through everything, from 
+                    the wordcloud we created with words that describe you, to the pictures we chose for you. By the way, make sure to 
+                    click on the pictures!
+                </p>
+                <ReactWordcloud words={wordcloudData} className="word-cloud"/>
             </div>
+            
             <ImageGallery/>
-            <ReactAudioPlayer src={Mr_Blue_Sky}
+            {/* <ReactAudioPlayer src={Mr_Blue_Sky}
                 autoPlay={false}
                 controls={true}
                 loop={true}
-                />
+                /> */}
             <div className="marginBottom"/>
             
         </PageWrapper>
@@ -41,13 +44,25 @@ const PageWrapper = styled.div`
     align-items:center;
     flex-direction:column;
     width:100%;
-    padding-top:40px;
+    padding-top:10px;
     padding-bottom:60px;
     //margin-left:40px;
     .top-column{
         display:flex;
         flex-direction:row;
         justify-content:space-between;
+        align-items:center;
+    }
+    .first-row{
+        display:flex;
+        flex-direction:row;
+        margin-left:20px;
+        margin-right:10px;
+        font-size:1.5rem;
+    }
+    .word-cloud{
+        max-width:1200px;
+        max-height:400px;
     }
     .marginTop{
         margin-bottom:40px;
