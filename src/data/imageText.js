@@ -1,0 +1,18 @@
+export const imageText = {
+    hexagon1:`You've cared for us from day 1.`,
+    hexagon2:`You're always making us laugh.`,
+    hexagon3:``,
+    hexagon4:``,
+    hexagon5:``,
+    hexagon6:``,
+    aboutGallery1:``,
+    aboutGallery2:``,
+    aboutGallery3:``,
+    aboutGallery4:``,
+    aboutGallery5:``,
+    aboutGallery6:``,
+    aboutGallery7:``,
+    aboutGallery8:``,
+    aboutGallery9:``,
+    aboutGallery10:``,
+}

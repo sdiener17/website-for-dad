@@ -1,12 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
+import CommonModal from "../common/CommonModal";
 
 
-export default function ImageCard({image}){
+
+export default function ImageCard({image, mText}){
+    const [showModal, setShowModal] = useState(false);
+    const handleClickPic = (e) => {
+        setShowModal(true);
+    }
     return(
         <PageWrapper>
-            <img className="sqr" src={image}/>
-            
+            <img className="sqr" src={image} onClick={handleClickPic}/>
+            <CommonModal showModal={showModal} setShowModal={setShowModal} text={mText}/>
         </PageWrapper>
     )
 }

@@ -1,35 +1,70 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
+import CommonModal from "../common/CommonModal";
 
-export default function HexagonGallery({ img1, img2, img3, img4, img5, img6 }) {
+
+export default function HexagonGallery({ 
+  img1, img2, img3, img4, img5, img6,
+  mText1,
+  mText2,
+  mText3,
+  mText4,
+  mText5,
+  mText6
+ }) {
+  const [showModal1, setShowModal1] = useState(false);
+  const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
+  const [showModal4, setShowModal4] = useState(false);
+  const [showModal5, setShowModal5] = useState(false);
+  const [showModal6, setShowModal6] = useState(false);
+
+  const handleClickPic1 = (e) => {
+    setShowModal1(true);
+  };
+  const handleClickPic2 = (e) => {
+    setShowModal2(true);
+  };
+  const handleClickPic3 = (e) => {
+    setShowModal3(true);
+  };
+  const handleClickPic4 = (e) => {
+    setShowModal4(true);
+  };
+  const handleClickPic5 = (e) => {
+    setShowModal5(true);
+  };
+  const handleClickPic6 = (e) => {
+    setShowModal6(true);
+  };
   return (
     <PageWrapper>
       {/* base(target="_blank") */}
       <ul>
         <li>
-          <a href="https://unsplash.com/photos/iuvLYv85r40" />
-          <img src={img1} />
+          <img src={img1} onClick={handleClickPic1} />
+          <CommonModal className="modal" setShowModal={setShowModal1} showModal={showModal1} text={mText1}/>
         </li>
 
         <li>
-          <a href="https://unsplash.com/photos/iuvLYv85r40" />
-          <img src={img2} />
+          <img src={img2} onClick={handleClickPic2} />
+          <CommonModal className="modal" setShowModal={setShowModal2} showModal={showModal2} text={mText2}/>
         </li>
         <li>
-          <a href="https://unsplash.com/photos/iuvLYv85r40" />
-          <img src={img3} />
+          <img src={img3} onClick={handleClickPic3} />
+          <CommonModal  className="modal" setShowModal={setShowModal3} showModal={showModal3} text={mText3}/>
         </li>
         <li>
-          <a href="https://unsplash.com/photos/iuvLYv85r40" />
-          <img src={img4} />
+          <img src={img4} onClick={handleClickPic4} />
+          <CommonModal setShowModal={setShowModal4} showModal={showModal4} text={mText4}/>
         </li>
         <li>
-          <a href="https://unsplash.com/photos/iuvLYv85r40" />
-          <img src={img5} />
+          <img src={img5} onClick={handleClickPic5} />
+          <CommonModal setShowModal={setShowModal5} showModal={showModal5} text={mText5}/>
         </li>
         <li>
-          <a href="https://unsplash.com/photos/iuvLYv85r40" />
-          <img src={img6} />
+          <img src={img6} onClick={handleClickPic6} />
+          <CommonModal setShowModal={setShowModal6} showModal={showModal6} text={mText6}/>
         </li>
       </ul>
     </PageWrapper>
@@ -43,6 +78,9 @@ const PageWrapper = styled.div`
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
+  }
+  .modal{
+    max-width:20px;
   }
 
   ul {
