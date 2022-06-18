@@ -25,5 +25,5 @@ export const sarahSpotlightData = {
     word3:"Anotherword",
     favoriteSong: "Zen Ball Master",
     paragraph:`Dad, I'm so glad that I get to have you as a dad. Even though you somtimes got mad at us, or ruined our fun, you were
-        always just trying to look out for us.`
+        always just trying to look out for us. [more words]`
 }

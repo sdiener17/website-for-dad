@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="FooterMain">
         <p className="text-1">Website for Dad</p>
         <ReactAudioPlayer src={Mr_Blue_Sky}
-                autoPlay={false}
+                autoPlay={true}
                 controls={true}
                 loop={true}
                 className="audio-player"

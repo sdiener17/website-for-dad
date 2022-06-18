@@ -10,7 +10,7 @@ export default function HomePage({setIsLoggedIn}){
       }, [])
     const onClick = (e) =>{
         e.preventDefault();
-        if(username==="sarahisthebest" && password==="Sav3Th3Flaming0s12@"){
+        if(username==="dadrocks" && password==="Sav3Th3Flaming0s12@"){
             setIsLoggedIn(true);
         }
     }
@@ -53,5 +53,8 @@ const PageWrapper = styled.div`
     }
     .marginBottom{
         margin-bottom:var(--marginBottom);
+    }
+    input{
+        margin-bottom:10px;
     }
 `;
