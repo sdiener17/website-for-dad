@@ -1,0 +1,10 @@
+--Before building the site:
+ -change login value to false in App.js
+ -change autoplay in the footer to true
+
+-TODO
+ - Change site title and image
+ - add Caleb's spotlight
+ - Add text for images
+ - Change site header title
+ - 

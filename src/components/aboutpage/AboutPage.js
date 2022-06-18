@@ -91,8 +91,8 @@ export default function HomePage(){
         </div>
         <div className="sqrs">
           <ImageCard image={Dad38} mText={imageText.aboutGallery21}/>
-          <ImageCard image={Dad39} mText={imageText.aboutGallery22}/>
-          <ImageCard image={Dad42} mText={imageText.aboutGallery23}/>
+          <ImageCard image={Dad42} mText={imageText.aboutGallery22}/>
+          <ImageCard image={Dad39} mText={imageText.aboutGallery23}/>
           <ImageCard image={Dad45} mText={imageText.aboutGallery24}/>
           <ImageCard image={Dad47} mText={imageText.aboutGallery25}/>
         </div>

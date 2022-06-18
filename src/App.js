@@ -13,7 +13,7 @@ import KidsPage from "./components/kidspage/KidsPage";
 export default function App() {
   const [isSurveySubmitted, setIsSurveySubmitted] = useState(false);
   const [userAnswers, setUserAnswers] = useState([]);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   useEffect(()=>{
     //setIsLoggedIn(false);

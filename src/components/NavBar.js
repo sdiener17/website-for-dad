@@ -37,7 +37,7 @@ export default function NavBar() {
             id="aboutLink"
             onClick={() => setCurrentPage("about")}
           >
-            About
+            Pictures
           </Link>
 
           <Link

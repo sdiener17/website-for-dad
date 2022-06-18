@@ -13,7 +13,7 @@ export default function Header() {
     <PageWrapper>
       <div className="headerMain">
         {/* <img src={mainLogo} className="logo" alt="GURPS Book image"></img> */}
-        <div className="headerTitle">The Best Dad Ever</div>
+        <div className="headerTitle">Happy Father's Day!</div>
         <NavBar/>
       </div>
     </PageWrapper>

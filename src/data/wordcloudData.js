@@ -74,6 +74,10 @@ export const wordcloudData = [
     {
         text: "Wild Hog",
         value: 9
+    },
+    {
+        text:"Skii Enthusiast",
+        value: 7
     }
 
 ]

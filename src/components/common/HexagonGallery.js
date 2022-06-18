@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import CommonModal from "../common/CommonModal";
 
+//CSS authored by ycw on freefrontend.com
+
 
 export default function HexagonGallery({ 
   img1, img2, img3, img4, img5, img6,

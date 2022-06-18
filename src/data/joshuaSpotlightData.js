@@ -1,5 +1,5 @@
 export const joshuaSpotlightData = {
-    favoriteThing:`You're always really helpful even if you doesn't know what you're doing`,
+    favoriteThing:`You're always really helpful even if you don't know what you're doing`,
     text1 : `I remember when we were in Yellowstone how I pointed out to you that you pronounced 'nuggets' as 'nuggeds' on our way 
         to McDonald's, and shortly after you proceeded to do it again when we placed our orders`,
     text2:`This was so long ago now but uh... 'mooshy cheeks.'`,
