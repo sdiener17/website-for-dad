@@ -15,7 +15,11 @@ export const sarahSpotlightData = {
         and I would get annoyed with you everytime and tell you that that wasn't how the book went. Even though it's been years and years
         since I've heard the book read to me, when I pulled it off the shelf recently, I still had a vague recollection of how it
         went.`,
-    text3:``,
+    text3:`I remember one time, I was either in Newton or Hillsboro (but we still lived in Newton because Grandpa Truman was alive),
+        and I was "riding" the big tricycle, and I ran over a worm because it was rainy out. I was absolutely distraught because I
+        killed a harmless little worm, and I'm pretty sure I was sobbing. You reassured me that worms can live even when split in half,
+        so the worm would probably be fine. I wasn't so sure about that, but it did make me feel a little better, even though, looking
+        back, I probably did kill it.`,
     word1: "Trickster",
     word2:"Fix-it Felix",
     word3:"Anotherword",

@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import styled from "styled-components";
 import SpotlightCard from "./SpotlightCard";
 import { calebSpotlightData } from "../../data/calebSpotlightData";
-import Dad1 from "../../images/Dad1.jpg";
+import Dad25 from "../../images/Dad25.jpg";
 import Hooked_on_a_Feeling from "../../music/Hooked_on_a_Feeling.mp3";
 
 
@@ -12,7 +12,8 @@ export default function CalebSpotlight(){
             <SpotlightCard favoriteThingText={calebSpotlightData.favoriteThing} favoriteSong={calebSpotlightData.favoriteSong}
                 mText1={calebSpotlightData.text1} mText2={calebSpotlightData.text2} mText3={calebSpotlightData.text3}
                 word1={calebSpotlightData.word1} word2={calebSpotlightData.word2} word3={calebSpotlightData.word3}
-                paragraphText={calebSpotlightData.paragraph} image1={Dad1} songRecording={Hooked_on_a_Feeling}/>
+                paragraphText={calebSpotlightData.paragraph} image1={Dad25} songRecording={Hooked_on_a_Feeling}
+                spotlightName="Caleb"/>
         </PageWrapper>
     )
 }

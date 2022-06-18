@@ -17,7 +17,8 @@ export default function ImageCard({
     mText2, 
     mText3,
     favoriteSong,
-    songRecording
+    songRecording,
+    spotlightName
 }){
     const [showModal1, setShowModal1] = useState(false);
     const [showModal2, setShowModal2]  = useState(false);
@@ -35,6 +36,7 @@ export default function ImageCard({
     return(
         <PageWrapper>
             <div className="overall-wrapper">
+                <h1>{spotlightName}</h1>
                 <div className="gallery-wrapper">
                     <img className="sqr" src={image1} onClick={handleClickPic1}/>
                     <CommonModal setShowModal={setShowModal1} showModal={showModal1} text={mText1}/>
