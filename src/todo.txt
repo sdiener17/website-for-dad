@@ -1,5 +1,0 @@
---Before building the site:
- -change login value to false in App.js
- -change autoplay in the footer to true
-
- - Sav3Th3Flaming0s12@
