@@ -18,7 +18,7 @@ export default function HomePage(){
     return (
         <PageWrapper>
             <div className="first-row">
-                <p>Welcome Mr. Dad to your super awesome website! We hope you enjoy looking through everything, from 
+                <p>Welcome, Mr. Dad, to your super awesome website! We hope you enjoy looking through everything, from 
                     the wordcloud we created with words that describe you, to the pictures we chose for you. By the way, make sure to 
                     click on the pictures!
                 </p>
@@ -69,5 +69,12 @@ const PageWrapper = styled.div`
     }
     .marginBottom{
         margin-bottom:var(--marginBottom);
+    }
+    p{
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        background-color:var(--cardGrey);
+        border-radius: 10px;
+        margin-bottom:20px;
     }
 `;

@@ -25,7 +25,7 @@ const PageWrapper = styled.nav`
   position: sticky;
   top: 0;
   padding: 1rem 1.5rem;
-  background: var(--primarySiteColor);
+  background: linear-gradient(to bottom right, var(--primarySiteColor) , var(--darkSiteColor));
   border-bottom: 5px solid var(--secondarySiteColor);
   z-index: 999;
   /* width: 100%; */
@@ -56,6 +56,11 @@ const PageWrapper = styled.nav`
     height: 50%;
     width: 10%;
   }
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+  }
   @media screen and (max-width: 500px) {
     .headerMain {
       float: none;
@@ -67,9 +72,5 @@ const PageWrapper = styled.nav`
     }
   }
 
-  .links {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3px;
-  }
+
 `;

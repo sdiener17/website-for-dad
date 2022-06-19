@@ -42,9 +42,9 @@ export const imageText = {
     aboutGallery24:`I remember getting to "help" you renovate my bedroom, and I'm sure I was more of an annoyance than anything, but
         I thought it was so cool that I got to help you saw and paint and stuff -Sarah`,
     aboutGallery25:``,
-    homeGallery1:``,
-    homeGallery2:``,
-    homeGallery3:``,
-    homeGallery4:``,
-    homeGallery5:``,
+    homeGallery1:`You're super awesome`,
+    homeGallery2:`so we thought we'd give you`,
+    homeGallery3:`a website that's`,
+    homeGallery4:`almost as awesometastic as you are!`,
+    homeGallery5:`Enjoy!`,
 }

@@ -73,21 +73,21 @@ const SideWrapper = styled.div`
     text-transform: capitalize;
     padding: 0.5rem 1rem;
     font-size: 20px;
-    transition: var(--mainTransition);
+    //transition: var(--mainTransition);
     text-decoration: none;
     //width: 80%;
   }
   .sidebar-link:hover {
     border-radius: 10px;
-    background: var(--secondarySiteColor);
+    background: linear-gradient(to bottom right, var(--secondarySiteColor), var(--primarySiteColor) , var(--siteColor4));
     color: var(--lightGrey);
-    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    //padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     text-decoration: none;
   }
   .lit {
     border-radius: 10px;
     color: var(--lightGrey);
-    background: var(--secondarySiteColor);
+    background: linear-gradient(to bottom right, var(--secondarySiteColor), var(--primarySiteColor) , var(--siteColor4));
   }
   .unlit {
     color: var(--lightGrey);
