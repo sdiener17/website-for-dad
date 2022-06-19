@@ -7,9 +7,10 @@ export const imageText = {
     hexagon6:`You're an awesome chef`,
     aboutGallery1:`Once, you made a joke about a donkey in a hole being an asshole at supper, and we all thought that was the funniest
         thing ever- Sarah`,
-    aboutGallery2:`-Joshua`,
+    aboutGallery2:`I remember when you brought home my new desk and I was shocked. It was ugly an a whole other level. But then
+        we fixed it up and now it's awesome -Joshua`,
     aboutGallery3:`-Caleb`,
-    aboutGallery4:`-Joshua`,
+    aboutGallery4:`I distincly recall a time we were on paddle boards and I came up behind you and knocked you off -Joshua`,
     aboutGallery5:`I always love hearing the stories from the cousins about the mischief you got into with them around Christmas
         every year, like putting their lifesavers boxes in a wooden box -Sarah`,
     aboutGallery6:`-Caleb`,
@@ -17,21 +18,25 @@ export const imageText = {
         sooooo funny -Sarah`,
     aboutGallery8:`-Caleb`,
     aboutGallery9:`-Caleb`,
-    aboutGallery10:`-Joshua`,
+    aboutGallery10:`Sheep have enough water? -Joshua & Sarah`,
     aboutGallery11:`-Caleb`,
-    aboutGallery12:`-Joshua`,
+    aboutGallery12:`I remember a distant memory of the time you didn't give us the van keys and we ended up walking 6 miles back
+        to a hotel -Joshua`,
     aboutGallery13:`I remember you used to sometimes grab some marshmallows and start throwing them at us whenever you used them
         for something like hot chocolate or rice crispy treats -Sarah`,
     aboutGallery14:`-Caleb`,
-    aboutGallery15:`-Joshua`,
+    aboutGallery15:`I remember after having a toothbrush kicked back into my throat, someone read me stories. I don't remember if 
+    it was you or not, but seems like something you'd do to help me calm down -Joshua`,
     aboutGallery16:`You were always there for me when I was struggling with my math homework, and you somehow put up with me even
         when I started yelling at you because I was so frustrated -Sarah`,
-    aboutGallery17:`-Joshua`,
+    aboutGallery17:`I remember I once spelled 'cucumber' wrong in the spelling bee and you wouldn't stop giving me crap about it
+        -Joshua`,
     aboutGallery18:`I remember once, when we lived in Newton, I was sick and threw up in the middle of the night. You took me
         downstairs and got me some Cheerios and yogurt to eat and we sat in the living room and watched Care Bears for a while.
         I thought that was the coolest thing ever and wanted to be sick all the time so I could do that again -Sarah`,
-    aboutGallery19:`-Joshua`,
-    aboutGallery20:`-Joshua`,
+    aboutGallery19:`Dang, those stupid birthday spankins -Joshua`,
+    aboutGallery20:`I remember one time I made brownies for the first time and they were pretty bad but you were nice and pretended
+        like they weren't that bad -Joshua`,
     aboutGallery21:`-Caleb`,
     aboutGallery22:`One time, when we were about to head to Grandma's house, we were already in the van and you were telling us
         goodbye and you offered to buy me a razor scooter if I stayed home with you. I reaaaally wanted one of those scooters, but

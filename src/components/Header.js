@@ -26,7 +26,7 @@ const PageWrapper = styled.nav`
   top: 0;
   padding: 1rem 1.5rem;
   background: linear-gradient(to bottom right, var(--primarySiteColor) , var(--darkSiteColor));
-  border-bottom: 5px solid var(--secondarySiteColor);
+  border-bottom: 5px solid var(--mediumGrey);
   z-index: 999;
   /* width: 100%; */
   margin: 0;

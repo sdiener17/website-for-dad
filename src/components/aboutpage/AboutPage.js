@@ -127,4 +127,7 @@ const PageWrapper = styled.div`
   .pic-description{
     margin-top:60px;
   }
+  p{
+    font-family: 'Times New Roman', Times, serif
+  }
 `;
