@@ -56,12 +56,18 @@ export default function ImageCard({
                     </ul>
                     <h2>My Guess at Your Favorite Song</h2>
                     {/* <div>{favoriteSong}</div> */}
-                    <ReactAudioPlayer
+                    {songRecording &&(
+                        <ReactAudioPlayer
                         src={songRecording}
                         autoPlay={false}
                         loop={false}
                         controls={true}
-                    />
+                        />
+                    )}
+                    {!songRecording &&(
+                        <p>No song guess provided</p>
+                    )}
+                   
                     <h2>To Dad:</h2>
                     <div>{paragraphText}</div>
                 </div>

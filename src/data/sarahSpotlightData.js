@@ -22,8 +22,10 @@ export const sarahSpotlightData = {
         back, I probably did kill it.`,
     word1: "Trickster",
     word2:"Fix-it Felix",
-    word3:"Anotherword",
+    word3:"Adventurer",
     favoriteSong: "Zen Ball Master",
     paragraph:`Dad, I'm so glad that I get to have you as a dad. Even though you somtimes got mad at us, or ruined our fun, you were
-        always just trying to look out for us. [more words]`
+        always just trying to look out for us. Despite the fact that you get easily stressed out, you're always making sure that we're
+        having a good time on trips. I really appreciate everything you've done for us and all the sacrifices you've had to make for
+        us. Happy Father's Day!`
 }

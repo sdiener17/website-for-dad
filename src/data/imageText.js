@@ -20,7 +20,8 @@ export const imageText = {
     aboutGallery10:``,
     aboutGallery11:``,
     aboutGallery12:``,
-    aboutGallery13:`I remember going on a paddle boat with you once which was a lot of fun -Sarah`,
+    aboutGallery13:`I remember you used to sometimes grab some marshmallows and start throwing them at us whenever you used them
+        for something like hot chocolate or rice crispy treats -Sarah`,
     aboutGallery14:``,
     aboutGallery15:``,
     aboutGallery16:`You were always there for me when I was struggling with my math homework, and you somehow put up with me even
