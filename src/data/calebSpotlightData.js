@@ -3,10 +3,10 @@ export const calebSpotlightData = {
     text1 : `Riding around in ATV's in the middle of nowhere with you was awesome.`,
     text2:`I always loved going to K-State basketball games with you.`,
     text3:`You know what this is Dad ;)`,
-    word1: "Not answered",
-    word2:"Not answered",
-    word3:"Not answered",
-    favoriteSong: "Song",
+    word1: "Adventurous",
+    word2:"Sleepy",
+    word3:"Hardworking & Intentional",
+    favoriteSong: "The Glen Poop Song",
     paragraph:`Just want to say how much I love you, look up to you, and appreciate you dad! I’m so thankful for 
         all that you have done for me throughout the years, even things that I don’t remember. You have sacrificed so much time 
         and energy to help me grow up into the man that I am today and without you I wouldn’t be where I am right now. You have 

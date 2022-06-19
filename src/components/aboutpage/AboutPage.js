@@ -6,7 +6,7 @@ import ImageCard from "../common/ImageCard";
 import { imageText } from "../../data/imageText";
 import Dad11 from "../../images/Dad11.jpg";
 import Dad13 from "../../images/Dad13.jpg";
-import Dad7 from "../../images/Dad7.jpg";
+import Dad7b from "../../images/Dad7b.jpg";
 import Dad5 from "../../images/Dad5.jpg";
 import Dad14 from "../../images/Dad14.jpg";
 import Dad33 from "../../images/Dad33.jpg";
@@ -63,7 +63,7 @@ export default function HomePage(){
         <div className="sqrs">
           <ImageCard image={Dad11} mText={imageText.aboutGallery1} />
           <ImageCard image={Dad13} mText={imageText.aboutGallery2} />
-          <ImageCard image={Dad7} mText={imageText.aboutGallery3} />
+          <ImageCard image={Dad7b} mText={imageText.aboutGallery3} />
           <ImageCard image={Dad5} mText={imageText.aboutGallery4} />
           <ImageCard image={Dad14} mText={imageText.aboutGallery5} />
         </div>

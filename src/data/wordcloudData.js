@@ -78,6 +78,10 @@ export const wordcloudData = [
     {
         text:"Skii Enthusiast",
         value: 2+5+7
+    },
+    {
+        text:"Hardworking",
+        value:3+6+5
     }
 
 ]

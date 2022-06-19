@@ -65,7 +65,7 @@ export default function ImageCard({
                         />
                     )}
                     {!songRecording &&(
-                        <p>No song guess provided</p>
+                        <p>{favoriteSong}</p>
                     )}
                    
                     <h2>To Dad:</h2>
